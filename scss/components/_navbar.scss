@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        padding: 0; margin: 0;
+
+        &__item {
+            margin-right: 15px;
+
+        }
+
+        &__link {
+            font-size: 14px;
+            color: $color-primary;
+            text-decoration: none;
+            text-transform: uppercase; 
+
+            &:hover, &.is-active {
+                color: $color-primary-light;
+            }
+        }
+    }
+}

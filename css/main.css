@@ -1,4 +1,4 @@
-
+/* COLORS */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #858585;
@@ -6,7 +6,6 @@ body {
     font-weight: 600;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,8 +16,10 @@ body {
 .navbar__menu {
     display: flex;
     list-style-type: none;
-    padding: 0; margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .navbar__menu__item {
     margin-right: 15px;
 }
@@ -30,106 +31,17 @@ body {
     text-transform: uppercase;
 }
 
-.navbar__menu__link:hover, .navbar__menu__link.is-active {
-    color: #9b9b9b;
+.navbar__menu__link:hover,
+.navbar__menu__link.is-active {
+    color: #9a9a9a;
 }
 
 .button {
     border-radius: 20px;
     background-color: #2086fb;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
     padding: 10px 20px;
-}
-
-/* BANNER */
-.banner {
-    background-image: url(../img/hero.jpg);
-    text-align: center;
-    padding: 100px 0 200px 0;
-}   
-
-.banner__title {
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.banner__form {
-    position: relative;
-}
-
-.banner__form__input {
-    width: 90%;
-    padding: 15px 20px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    color: #9b9b9b;
-    font-weight: 400;
-}
-
-.banner__form__submit {
-    border: none;
-    background-image: url('../img/search.svg'); 
-    background-color: transparent;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    right: 50px;
-    top: 16px;
-}
-
-/* FEATURES */
-.features {
-    padding: 30px 0;
-} 
-
-.features__item {
-    text-align: center; 
-    padding: 40px 0 20px 0;  
-}
-
-.features__title {
-    color: #4a4a4a;
-    font-size: 18px;
-    margin-bottom: 13px;
-} 
-
-.features__text {
-    color: #858585;
-    line-height: 26px;
-}
-
-/* REQUEST */
-.request {
-    background-color: #323232;
-    padding: 64px 0;
-    text-align: center;
-}
-
-.request__title {
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 4px;
-}
-
-.request__content {
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 48px;
-}
-
-
-/* FOOTER */
-footer {
-    background-color: #252525;
-    padding: 25px 0;
-}
-
-.footer__copyright{
-    margin: 0;
-    color: #fff;
-    font-size: 14px;
 }

@@ -1,0 +1,22 @@
+{
+  "name": "codeandco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifhacisalihoglu/codeandco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elifhacisalihoglu/codeandco/issues"
+  },
+  "homepage": "https://github.com/elifhacisalihoglu/codeandco#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
