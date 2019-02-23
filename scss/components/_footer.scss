@@ -1,0 +1,12 @@
+/* FOOTER */
+footer {
+    background-color: $color-black-dark;
+    padding: 25px 0;
+
+    &__copyright {
+    margin: 0;
+    color: $color-white;
+    font-size: 14px; 
+    }
+}
+
