@@ -1,0 +1,37 @@
+/* BANNER */
+.banner {
+    background-image: url(../img/hero.jpg);
+    text-align: center;
+    padding: 100px 0 200px 0;
+
+  &__title {
+    color: $color-white;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__form {
+    position: relative;
+
+    &__input {
+        width: 90%;
+        padding: 15px 20px;
+        border: 5px solid rgba($color-black, 0.3);
+        border-radius: 5px;
+        color: $color-gray;
+        font-weight: 400;
+    }
+
+    &__submit {
+        border: none;
+        background-image: url('../img/search.svg'); 
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 50px;
+        top: 16px;
+    }
+  }
+}   
+
