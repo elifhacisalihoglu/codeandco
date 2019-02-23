@@ -80,3 +80,24 @@ body {
     right: 50px;
     top: 16px;
 }
+
+/* FEATURES */
+.features {
+    padding: 30px 0;
+} 
+
+.features__item {
+    text-align: center; 
+    padding: 40px 0 20px 0;  
+}
+
+.features__title {
+    color: #4a4a4a;
+    font-size: 18px;
+    margin-bottom: 13px;
+} 
+
+.features__text {
+    color: #858585;
+    line-height: 26px;
+}
