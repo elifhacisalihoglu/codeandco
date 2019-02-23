@@ -3,16 +3,17 @@
     background-color: $color-black-light;
     padding: 64px 0;
     text-align: center;
+
+    &__title {
+        color: $color-white;
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    &__content {
+        color: $color-white;
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
 }
 
-.request__title {
-    color: $color-white;
-    font-size: 30px;
-    margin-bottom: 4px;
-}
-
-.request__content {
-    color: $color-white;
-    font-size: 16px;
-    margin-bottom: 48px;
-}

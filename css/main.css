@@ -1036,13 +1036,11 @@ body {
   background-color: #323232;
   padding: 64px 0;
   text-align: center; }
-
-.request__title {
-  color: #fff;
-  font-size: 30px;
-  margin-bottom: 4px; }
-
-.request__content {
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 48px; }
+  .request__title {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 4px; }
+  .request__content {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 48px; }
